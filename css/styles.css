@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+body {
+  background-color: rgb(210, 210, 210);
+  font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  align-content: center;
+}
+
+h3 {
+  font-style: italic;
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green
+}
+
+
+.ul_nav_menu {
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+
+
+}
+
+.li_nav_menu {
+  padding: 10px;
+}
+
+.li_nav_menu:hover {
+  background-color: rgb(190, 190, 190);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(190, 190, 190);
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(190, 190, 190);
+  align-items: center;
+  text-align: justify;
+  border-bottom: 6px double black;
+}
+
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.imagen {
+  width: 100%;
+  height: auto;
+
+}
+
+button {
+  cursor: pointer;
+  width: 90%;
+  background-color: green;
+  font-size: 21px;
+  padding: 10px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 750px) {
+  .imagen {
+    width: 80%;
+    height: auto;
+    max-width: 750px;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  h3 {
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 3vw;
+  }
+
+  a {
+    font-size: 1.5vw;
+  }
+
+  .card li {
+    font-size: 3vw;
+  }
+}
