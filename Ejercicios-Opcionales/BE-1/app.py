@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/bienvenida" , methods=["GET"])
 def welcome():
-    return {"¡Bienvenidos a nuestra API!"}
+    return {"mensaje":"Bienvenidos a nuestra API"}
 
 
 
